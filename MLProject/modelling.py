@@ -18,8 +18,8 @@ import mlflow.sklearn
 
 
 # ── Konfigurasi ────────────────────────────────────────────────
-TRAIN_PATH   = "../preprocessing/titanic_preprocessing/titanic_train.csv"
-TEST_PATH    = "../preprocessing/titanic_preprocessing/titanic_test.csv"
+TRAIN_PATH   = "titanic_preprocessing/titanic_train.csv"
+TEST_PATH    = "titanic_preprocessing/titanic_train.csv"
 EXPERIMENT   = "Titanic_Classification"
 RUN_NAME     = "RandomForest_Autolog"
 
