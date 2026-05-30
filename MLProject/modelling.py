@@ -42,10 +42,6 @@ def load_data():
 def train():
     """Pipeline pelatihan model dengan MLflow autolog."""
 
-    # Set tracking URI ke lokal
-    mlflow.set_tracking_uri("mlruns")
-    mlflow.set_experiment(EXPERIMENT)
-
     # Aktifkan autolog
     mlflow.sklearn.autolog()
 
